@@ -22,7 +22,11 @@ public class Requester {
 			//System.out.println("Please Enter the Bank IP Address");
 			//ipaddress = stdin.next();
 
-			ipaddress = "127.0.0.1";
+			// Local IP
+			//ipaddress = "127.0.0.1";
+			
+			//Remote IP
+			ipaddress = "54.210.69.237";
 
 			requestSocket = new Socket(ipaddress, 2004);
 
