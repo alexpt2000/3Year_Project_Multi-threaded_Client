@@ -23,10 +23,10 @@ public class Requester {
 			//ipaddress = stdin.next();
 
 			// Local IP
-			//ipaddress = "127.0.0.1";
+			ipaddress = "127.0.0.1";
 			
 			//Remote IP
-			ipaddress = "54.210.69.237";
+			//ipaddress = "54.210.69.237";
 
 			requestSocket = new Socket(ipaddress, 2004);
 
